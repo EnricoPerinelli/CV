@@ -1,0 +1,661 @@
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+% (c) 2008 Nathaniel Johnston <nathaniel@nathanieljohnston.com> http://www.nathanieljohnston.com
+%
+%This work is licensed under the Creative Commons Attribution-Noncommercial-Share Alike 2.5 License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/2.5/ or send a letter to Creative Commons, 543 Howard Street, 5th Floor, San Francisco, California, 94105, USA.
+
+\documentclass[hidelinks, letterpaper,10pt]{article} % Sept 05, 2022 I've added "hidelinks" to remove the blue box around the hyperlinks (such as the email and the academic links)   
+\newlength{\outerbordwidth}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{comment}
+\usepackage{tocloft}
+\usepackage{lipsum}
+\usepackage{array}
+\usepackage{etaremune}
+\usepackage{hyperref}    % added for including my email link
+\usepackage{academicons} % added for including academic icons
+\usepackage{fontawesome5}% added for including email, University, and LinkedIn icons
+
+\pagenumbering{arabic}
+%-----------------------------------------------------------
+%Edit these values as you see fit
+
+\setlength{\outerbordwidth}{3pt}  % Width of border outside of title bars
+\definecolor{shadecolor}{gray}{0.75}  % Outer background color of title bars (0 = black, 1 = white)
+\definecolor{shadecolorB}{gray}{0.93}  % Inner background color of title bars
+
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\evensidemargin}{-0.25in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\tabcolsep}{0in}
+\setlength{\textheight}{9.5in}
+\setlength{\textwidth}{7in}
+\setlength{\topmargin}{-0.3in}
+\setlength{\topskip}{0in}
+\setlength{\voffset}{0.1in}
+
+
+%-----------------------------------------------------------
+%Custom commands
+
+\newcommand\textbox[1]{%
+  \parbox{.333\textwidth}{#1}%
+}
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+  \parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+    \begin{shaded}
+\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+    \end{shaded}
+  }\vspace{-5pt}
+}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+
+ \textbf{\Large Enrico Perinelli} & \textbf{Curriculum Vitae}\\
+ Department of Psychology and Cognitive Science & \today \\
+ University of Trento & \\
+ Corso Bettini 31, 38068 Rovereto, TN, Italy  & \\
+ \faIcon{envelope} \texttt{\href{mailto:enrico.perinelli@unitn.it}{enrico.perinelli@unitn.it}} & \href{https://scholar.google.com/citations?user=gZO04tIAAAAJ&hl=it&oi=ao}{\aiGoogleScholar}
+ \href{https://www.researchgate.net/profile/Enrico-Perinelli}{\aiResearchGate}
+ \href{https://www.scopus.com/authid/detail.uri?origin=resultslist&authorId=57163991300&zone=}{\aiScopus}
+ \href{https://webapps.unitn.it/du/en/Persona/PER0209265/Didattica}{\faIcon{university}}
+ \href{https://orcid.org/0000-0002-7168-4847}{\aiOrcid}
+ \href{https://it.linkedin.com/in/enrico-perinelli-2921b184}{\faLinkedin}\\
+
+\end{tabular*}
+\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Academic Position \& Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+\item
+	\ressubheading{Research Fellow (RTD-A) -- Work and Organizational Psychology}{Jul 1, 2021 - Current} {University of Trento}  {Rovereto, Italy}
+	\vspace{.15cm}
+	
+\item
+	\ressubheading {Postdoctoral Researcher -- Work and Organizational Psychology} {Sept 15, 2018 - Jun 30, 2021} {University of Trento} {Rovereto, Italy}
+	\vspace{.15cm}
+
+\item
+	\ressubheading{Ph.D. -- Personality and Organizational Psychology} {Nov 1, 2014 - Feb 12, 2018}{Sapienza University of Rome}  {Rome, Italy}
+	\begin{itemize}
+		\resitem{\textit{Dissertation:} On the validity of the state-like component of global self-esteem: Relationships with implicit self-esteem and work-related variables using different Latent State-Trait models}
+		\resitem{\textit{Advisor:} Guido Alessandri}
+		\resitem{\textit{Area:} Psychometrics (M-PSI/03)}
+		\resitem{\textit{Classification:} Excellent}
+		\vspace{.15cm}
+	\end{itemize}
+	
+\item
+     \ressubheading{M.S. -- Clinical Psychology} {Nov 9, 2010 - Feb 6, 2013}{University of Bologna}  {Cesena, Italy}
+    \begin{itemize}
+	    \resitem{\textit{Thesis:} Social Desirability: A review of its relevance in Clinical Psychology using the PRISMA statement and an exploration of its relationship with personality using Structural Equation Modeling}
+	    \resitem{\textit{Advisor:} Paola Gremigni}
+	    \resitem{\textit{Area:} Psychometrics (M-PSI/03)}
+	    \resitem{\textit{Final grade:} 110/110 cum laude}
+	    \vspace{.15cm}
+\end{itemize}
+
+\item
+	\ressubheading{B.S. -- Psychology}{Oct 19, 2007 - Oct 21, 2010}{University of L'Aquila}{L'Aquila, Italy}
+	\begin{itemize}
+	\resitem{\textit{Thesis:} Psicobiologia e psicologia dinamica: Due prospettive a confronto}
+	\resitem{\textit{Advisor:} Enrico Perilli}
+	\resitem{\textit{Area:} Dynamic Psychology (M-PSI/07)}
+	\resitem{\textit{Final grade:} 99/110 cum laude}
+\end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Publications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize} 
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%
+	
+	\item {\textbf{\large{Peer reviewed international journals }}}
+\end{itemize}
+
+\begin{etaremune}
+
+\item Alessandri, G., Tavolucci, S., \textbf{Perinelli, E.}, Eisenberg, N., Golfieri, F., Caprara, G. V., \& Crocetti, E. (in press). Regulatory emotional self-efficacy beliefs matter for (mal)adjustment: A meta-analysis. \textit{Current Psychology}. \url{https://doi.org/10.1007/s12144-022-04099-3}
+
+\item \textbf{Perinelli, E.}, Balducci, C., \& Fraccaroli, F. (in press). Structural validity and classification performance of the Italian Short Negative Acts Questionnaire: A Structural Equation Modeling approach for building ROC curves. \textit{Current Psychology}. \url{https://doi.org/10.1007/s12144-022-03741-4}
+
+\item Vignoli, M., \textbf{Perinelli, E.}, Demerouti, E., \& Truxillo, D. M. (2023). An analysis of the multidimensional structure of job crafting for older workers with a managerial role. \textit{Work, Aging and Retirement, 9}(1), 136–150. \url{https://doi.org/10.1093/workar/waab031} 
+
+\item Alessandri, G., Filosa, L., \textbf{Perinelli, E.}, Carnevali, L., Ottaviani, C., Ferrante, C., \& Pasquali, V. (2023). The association of self-esteem variability with diurnal cortisol patterns in a sample of adult workers. \textit{Biological Psychology, 176}, Article 108470. \url{https://doi.org/10.1016/j.biopsycho.2022.108470}
+
+\item \textbf{Perinelli, E.}, Filosa, L., Avanzi, L., \& Fraccaroli, F. (2023). Self-esteem stability and change at home versus at work: An application of the Latent State-Trait model for the combination of Random and Fixed situations (LST-RF). \textit{Identity, 23}(1), 50-66. \url{https://doi.org/10.1080/15283488.2022.2115495}
+
+\item Alessandri, G., \textbf{Perinelli, E.}, Filosa, L., Eisenberg, N., \& Valiente, C. (2022). The validity of the higher‐order structure of effortful control as defined by inhibitory control, attention shifting, and focusing: A longitudinal and multi‐informant study. \textit{Journal of Personality, 90}(5), 781-798. \url{https://doi.org/10.1111/jopy.12696}
+
+\item \textbf{Perinelli, E.}, Alessandri, G., Vecchione, M., \& Mancini, D. (2022). A comprehensive analysis of the psychometric properties of the Contingencies of Self-Worth Scale (CSWS). \textit{Current Psychology, 41}(8), 5307-5322. \url{https://doi.org/10.1007/s12144-020-01007-5} 
+
+\item \textbf{Perinelli, E.}, Pisanu, F., Checchi, D., Scalas, L. F., \& Fraccaroli, F. (2022). Academic self-concept change in junior high school students and relationships with academic achievement. \textit{Contemporary Educational Psychology, 69}, Article 102071. \url{https://doi.org/10.1016/j.cedpsych.2022.102071}
+
+\item \textbf{Perinelli, E.}, Alessandri, G., Cepale, G., \& Fraccaroli, F. (2022). The sociometer theory at work: Exploring the organizational interpersonal roots of self-esteem. \textit{Applied Psychology: An International Review, 71}(1), 76-102. \url{https://doi.org/10.1111/apps.12312}
+
+\item Avanzi, L., \textbf{Perinelli, E.}, Bressan, M., Balducci, C., Lombardi, L., Fraccaroli, F., \& van Dick, R. (2021). The mediational effect of social support between organizational identification and employees’ health: A three-wave study on the social cure model. \textit{Anxiety, Stress, \& Coping, 34}(4), 465-478. \url{https://doi.org/10.1080/10615806.2020.1868443} 
+
+\item Cepale, G., Alessandri, G., Borgogni, L., \textbf{Perinelli, E.}, Avanzi, L., Livi, S., \& Coscarelli, A. (2021). Emotional efficacy beliefs at work and turnover intentions: The mediational role of organizational socialization and identification. \textit{Journal of Career Assessment, 29}(3), 442-462. \url{https://doi.org/10.1177/1069072720983209} 
+
+\item Filosa, L., Cepale, G.,\textbf{ Perinelli, E.}, Cinque, L., Coscarelli, A., \& Alessandri, G. (2021). The Military Academic Motivation Scale (MAMS): A new scale to assess motivation among military cadets from a self-determination theory perspective.\textit{ European Journal of Psychological Assessment, 37}(3), 193-207. \url{https://doi.org/10.1027/1015-5759/a000593} 
+
+\item \textbf{Perinelli, E.}, \& Alessandri, G. (2020). A Latent State-Trait analysis of global self-esteem: A reconsideration of its state-like component in an organizational setting. \textit{International Journal of Selection and Assessment, 28}(4), 465-483. \url{https://doi.org/10.1111/ijsa.12308}
+
+\item Alessandri, G., \textbf{Perinelli, E.}, Robins, R. W., Vecchione, M., \& Filosa, L. (2020). Personality trait change at work: Associations with organizational socialization and identification. \textit{Journal of Personality, 88}(6), 1217-1234. \url{https://doi.org/10.1111/jopy.12567} 
+
+\item Avanzi, L., \textbf{Perinelli, E.}, Vignoli, M., Junker, N. M., \& Balducci, C. (2020). Unravelling work drive: A comparison between workaholism and overcommitment.\textit{ International Journal of Environmental Research and Public Health, 17}(16), Article 5755. \url{https://doi.org/10.3390/ijerph17165755}
+
+\item Alessandri, G., De Longis, E., \textbf{Perinelli, E.}, Balducci, C., \& Borgogni, L. (2020). The costs of working too hard: Relationships between workaholism, job demands, and prosocial organizational citizenship behavior. \textit{Journal of Personnel Psychology, 19}(1), 24-32. \url{https://doi.org/10.1027/1866-5888/a000240} 
+
+\item Alessandri, G., \textbf{Perinelli, E.}, De Longis, E., Schaufeli, W. B., Theodorou, A., Borgogni, L., Caprara, G. V., \& Cinque, L. (2018). Job burnout: The contribution of emotional stability and emotional self-efficacy beliefs. \textit{Journal of Occupational and Organizational Psychology, 91}(4), 823-851. \url{https://doi.org/10.1111/joop.12225} 
+
+\item \textbf{Perinelli, E.}, Alessandri, G., Donnellan, M. B., \& Łaguna, M. (2018). State-trait decomposition of Name Letter Test scores and relationships with global self-esteem. \textit{Journal of Personality and Social Psychology, 114}(6), 959-972. \url{https://doi.org/10.1037/pspp0000125} 
+
+\item Alessandri, G., \textbf{Perinelli, E.}, De Longis, E., \& Theodorou, A. (2018). Second-order growth mixture modeling in organizational psychology: An application in the study of job performance using the cusp catastrophe model. \textit{Nonlinear Dynamics, Psychology, and Life Sciences, 22}(1), 53-76.
+
+\item Caprara, G. V., Gerbino, M., \textbf{Perinelli, E.}, Alessandri, G., Lenti, C., Walder, M., … Nobile, M. (2017). Individual differences in personality associated with aggressive behavior among adolescents referred for externalizing behavior problems. \textit{Journal of Psychopathology and Behavioral Assessment, 39}(4), 680-692. \url{https://doi.org/10.1007/s10862-017-9608-8} 
+
+\item Alessandri, G., \textbf{Perinelli, E.}, De Longis, E., Rosa, V., Theodorou, A., \& Borgogni, L. (2017). The costly burden of an inauthentic self: Insecure self-esteem predisposes to emotional exhaustion by increasing reactivity to negative events. \textit{Anxiety, Stress, \& Coping, 30}(6), 630-646. \url{https://doi.org/10.1080/10615806.2016.1262357} 
+
+\item Alessandri, G., Zuffianò, A., \& \textbf{Perinelli, E.} (2017). Evaluating intervention programs with a pretest-posttest design: A Structural Equation Modeling approach. \textit{Frontiers in Psychology, 8}, Article 223. \url{https://doi.org/10.3389/fpsyg.2017.00223} 
+
+\item Castellani, V., \textbf{Perinelli, E.}, Gerbino, M., \& Caprara, G. V. (2016). Positivity and interpersonal styles. \textit{Personality and Individual Differences, 98}, 229-234. \url{https://doi.org/10.1016/j.paid.2016.04.048} 
+
+\item \textbf{Perinelli, E.}, \& Gremigni, P. (2016). Use of social desirability scales in clinical psychology: A systematic review. \textit{Journal of Clinical Psychology, 72}(6), 534-551. \url{https://doi.org/10.1002/jclp.22284} 
+
+	\end{etaremune}
+\vspace{3mm}
+
+\begin{itemize}
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%	
+	
+	\item {\textbf{\large{National journals}}}
+\end{itemize}
+\begin{etaremune}
+	\item Paladino, M. P., Stefani, S., \& \textbf{Perinelli, E.} (2022). Feeling of power: Validation of the Italian Personal Sense of Power Scale. \textit{Psicologia Sociale, 17}(1), 103-123. \url{https://www.rivisteweb.it/doi/10.1482/103780}
+
+	\item \textbf{Perinelli, E.}, Salomone, R., \& Fraccaroli, F. (2020). Nudging e mercato del lavoro: Primi spunti per un dialogo tra psicologia e diritto [Nudging and the labor market: Contribution for a dialogue between psychology and law]. \textit{Giornale Italiano di Psicologia, 47}(2), 487-494. \url{https://www.rivisteweb.it/doi/10.1421/97877}
+\end{etaremune}
+\vspace{3mm}
+
+\begin{itemize}
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%
+	
+	\item {\textbf{\large{Chapters of book}}}
+\end{itemize}
+\begin{etaremune}
+    \item Cerni, T., \& \textbf{Perinelli, E.} (2023). Il concetto di sé scolastico [Academic self-concept]. In M. Gentile \& F. Pisanu (Eds.), \textit{Insegnare Educando. Promuovere a scuola le risorse psicosociali di chi apprende: modelli, strategie, attività} (pp. 65-75). UTET Università.
+
+    
+	\item Alessandri, G., \& \textbf{Perinelli, E.} (2018). Metodi di ricerca in psicologia del lavoro e delle organizzazioni [Research methods in work and organizational psychology]. In G. Alessandri \& L. Borgogni (Eds.), \textit{Psicologia del lavoro: Dalla teoria alla pratica} (Vol. 2, pp. 27-55). Franco Angeli.
+
+    \item Alessandri, G., \& \textbf{Perinelli, E.} (2018). Psicologia positiva al lavoro: Un’analisi dei principali approcci e costrutti [Positive psychology at work: An analysis of the main approaches and constructs]. In G. Alessandri \& L. Borgogni (Eds.), \textit{Psicologia del lavoro: Dalla teoria alla pratica} (Vol. 1, pp. 223-244). Franco Angeli.
+\end{etaremune}
+\vspace{3mm}
+
+\begin{itemize}
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%
+	
+	\item {\textbf{\large{Technical reports}}}
+\end{itemize}
+\begin{etaremune}
+
+    \item Merlo, G., Molino, M., \textbf{Perinelli, E.}, Zanutto, A., Salomone, R., \& Fraccaroli, F. (2022). \textit{Sperimentazioni di misure di Nudging nell’ambito del reinserimento lavorativo e sociale dei beneficiari di Reddito di Cittadinanza nella Provincia Autonoma di Trento}. University of Trento.
+    
+    \item Fraccaroli, F., Pisanu, F., Gentile, M., \textbf{Perinelli, E.}, \& Cerni, T. (2022). \textit{Sentirsi “forti” per superare le difficoltà nella ripartenza della scuola: L’importanza del self-concept scolastico negli studenti della scuola secondaria di primo grado dopo l’emergenza da covid-19} [Feeling "strong" to overcome the difficulties in restarting the school: The importance of the academic self-concept in junior high school students after the covid-19 emergency]. Department of Psychology and Cognitive Science, University of Trento. \\
+	
+	\item Gentile, M., Cerni, T., \textbf{Perinelli, E.}, \& Pisanu, F. (2021). \textit{Valutazione formativa e per l’apprendimento: L’impatto dell’OM 172 sulle pratiche e la cultura della valutazione in relazione agli apprendimenti cognitivi e non-cognitivi}. LUMSA Università di Roma.
+	
+	
+	\item Fraccaroli, F., \& \textbf{Perinelli, E.} (2020). \textit{Il mobbing nel territorio Trentino} [Mobbing in the Trentino area]. Department of Psychology and Cognitive Science, University of Trento. 
+
+\end{etaremune}
+\vspace{3mm}
+
+\begin{itemize}
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%
+	
+	\item {\textbf{\large{Manuscripts submitted for publication}}}
+\end{itemize}
+\begin{etaremune}
+
+    \item Vignoli, M., Costantini, A., Ceschi, A., \& \textbf{Perinelli, E.} (2023). \textit{It’s an e-work life! An explorative study on the relationships between remote e-work characteristics and well-being}. Manuscript submitted for publication.
+    
+    \item \textbf{Perinelli, E.}, Vignoli, M., Kröner, F., Müller, A., Genrich, M., \& Fraccaroli, F. (2022). \textit{Emotional exhaustion and mental well-being over COVID-19 pandemic: A Dynamic Structural Equation Modeling (DSEM) approach}. Manuscript submitted for publication.
+    
+    \item Avanzi, L., \textbf{Perinelli, E.}, Balducci, C., Alessandri, G., \& Fraccaroli, F. (2022). \textit{The relationship between job role, organizational identification, workaholism, and job performance: A moderated mediation model using a diary study}. Manuscript submitted for publication.
+
+    \item Avanzi, L., \textbf{Perinelli, E.}, \& Mariani, M. G. (2020). \textit{The effect of individual, group, and shared organizational identification on job satisfaction and collective actual turnover}. Manuscript submitted for publication.
+
+   % \vspace{3mm}
+\end{etaremune}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Presentations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize} 
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%
+	
+	\item {\textbf{\large{International peer reviewed conference presentations}}}
+\end{itemize}
+\begin{etaremune}
+
+    \item \textbf{Perinelli, E.}, Balducci, C., \& Fraccaroli, F. (2022, July 6-8). Structural validity and classification performance of the Italian Short Negative Acts Questionnaire: A Structural Equation Modeling approach for building ROC curves. In E. Baillien \& A. Rodriguez-Munoz (Chairs), \textit{Challenges in workplace bullying research} [Symposium]. European Academy of Occupational Health Psychology (EAOHP) 15th Conference, Bordeaux, France.
+    
+    \item Vignoli, M., \& \textbf{Perinelli, E.} (2022, July 6-8). \textit{It’s an e-work life! A longitudinal exploratory study on remote e-work well-being} [Paper presentation]. European Academy of Occupational Health Psychology (EAOHP) 15th Conference, Bordeaux, France. 
+
+   \item \textbf{Perinelli, E.}, Balducci, C., \& Fraccaroli, F. (2022, April 27-30). \textit{Introducing a SEM approach for building ROC curves: Application to a mobbing scale} [Poster presentation]. Society for Industrial and Organizational Psychology (SIOP) 37th Annual Conference, Seattle, WA, United States. \url{http://dx.doi.org/10.13140/RG.2.2.26701.10720} 
+
+    \item \textbf{Perinelli, E.}, Pisanu, F., Gentile, M., \& Fraccaroli, F. (2021, June 2-5). Non-cognitive skills in junior high school: A study on academic self-concept change and overview of the ‘Sentirsi Forti’ project. In A. Maccarini \& L. Ribolzi (Chairs), \textit{Social and emotional skills in sociological perspective. A fresh look on learning and assessment} [Symposium]. Journal “Scuola Democratica” 2nd International Conference.
+
+    \item Balducci, C., \textbf{Perinelli, E.*}, Zaniboni, S., Avanzi, L., \& Fraccaroli, F. (2019, August 9-13). Exploring the impact of workaholism on day-level workload and emotional exhaustion. In J. Wang, Y. He, \& J. Gu (Chairs), \textit{Understanding consequences of workaholism: Mechanisms, boundary conditions, and cross-level effects} [Symposium]. Academy of Management (AOM) 79th Annual Meeting, Boston, MA, United States. \url{https://doi.org/10.5465/AMBPP.2019.13284symposium}   \textbf{*presenting author}
+
+    \item \textbf{Perinelli, E.}, Alessandri, G., Cepale, G., \& Fraccaroli, F. (2019, May 29-June 1). \textit{The mediational role of organizational socialization in the relation between quality of relationships with colleagues and global self-esteem: A three-wave study in a sample of military cadets} [Paper presentation]. European Association of Work and Organizational Psychology (EAWOP) 19th Congress, Turin, Italy.
+
+    \item \textbf{Perinelli, E.}, \& Alessandri, G. (2017, July 18-21). \textit{The STARTS model: A reconsideration and an expanded analytical framework} [Poster presentation]. International Meeting of the Psychometric Society (IMPS), Zürich, Switzerland.
+
+    \item Alessandri, G., De Longis, E., \textbf{Perinelli, E.}, \& Theodorou, A. (2016, September 14-16). \textit{An introduction to Growth Mixture Models for organizational research} [Paper presentation]. European Association of Work and Organizational Psychology (EAWOP) Small Group Meeting: New methods for studying individual differences and dynamics in organizations, Verona, Italy.
+
+    \item \textbf{Perinelli, E.}, Gerbino, M., \& Caprara, G. V. (2016, July 10-14). \textit{Personality traits and externalizing behaviours in adolescents with externalizing disorders: The mediational role of moral disengagement} [Poster presentation]. International Society for the Study of Behavioural Development (ISSBD) 24th Biennial Meeting, Vilnius, Lithuania.
+\end{etaremune}
+\vspace{3mm}
+
+\begin{itemize} 
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	\setlength{\listparindent}{-0.1in}%
+	\setlength{\itemindent}{-0.2in}%
+	\setlength{\parsep}{\parskip}%
+	
+	\item {\textbf{\large{National peer reviewed conference presentations}}}
+\end{itemize}
+\begin{etaremune}
+	
+	\item Vignoli, M., \textbf{Perinelli, E.}, Civilleri, A., Alvarez, M. R., Claus, L., \& Malfer, L. (2022, September 27-30). \textit{Remote e-working and its relationship with the work and family domains: Investigating gender differences}. Paper presented at the XXX national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Padua, Italy.
+
+	\item Filosa, L., \textbf{Perinelli, E.}, \& Carnevali, L. (2022, September 27-30). \textit{L'associazione tra la (in)stabilità dell'autostima e l'andamento diurno del cortisolo in un campione di lavoratori adulti} [\textit{The association between (un)stable self-esteem and diurnal cortisol pattern in a sample of adult workers}]. Paper presented at the XXX national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Padua, Italy.
+	
+	\item Vignoli, L., \textbf{Perinelli, E.}, \& Ceschi, A. (2021, September 23-25). \textit{E-work life ed esiti sul benessere dei lavoratori: Uno studio preliminare longitudinale} [E-work life and organizational well-being outcomes: A preliminary longitudinal study]. Paper presented at the XVIII national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Verona, Italy.
+
+    \item Avanzi, L., \textbf{Perinelli, E.}, Balducci, C., Alessandri, G., \& Fraccaroli, F. (2021, September 23-25). \textit{L’impatto dell'appartenenza e del ruolo su workaholism e performance: Uno studio diario} [The Impact of membership and role on workaholism and performance: A diary study]. Paper presented at the XVIII national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Verona, Italy.
+
+    \item \textbf{Perinelli, E.}, Alessandri, G., Cepale, G., \& Fraccaroli, F. (2019, September 26-28). \textit{La teoria del sociometro dell’autostima nella ricerca organizzativa: Rassegna sistematica e contributo empirico} [The sociometer theory of self-esteem in organizational research: Systematic review and empirical contribution]. Paper presented at the XVII national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Lecce, Italy.
+
+    \item Cepale, G., \textbf{Perinelli, E.}, Avanzi, L., \& Alessandri, G. (2019, September 26-28). \textit{Adattarsi per sopravvivere e (forse) prosperare: Come le convinzioni di autoefficacia emotiva possono prevenire il turnover favorendo la socializzazione e l’identificazione organizzativa} [Adapt to survive and (perhaps) prosper: How emotional self-efficacy beliefs can prevent turnover by encouraging socialization and organizational identification]. Paper presented at the XVII national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Lecce, Italy.
+
+    \item Filosa, L., Cepale, G., \textbf{Perinelli, E.}, Cinque, L., Coscarelli, A., \& Alessandri, G. (2019, September 26-28). \textit{La Military Academic Motivation Scale (MAMS): Una nuova scala per la misura della motivazione dei cadetti militari sotto la prospettiva della teoria dell’autodeterminazione} [The Military Academic Motivation Scale (MAMS): A new scale to assess motivation among military cadets from a Self-Determination Theory perspective]. Poster presented at the XVII national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Lecce, Italy.
+
+    \item \textbf{Perinelli, E.}, \& Alessandri, G. (2018, September 27-29). \textit{Stato o tratto? Questione empirica, non teorica. Il caso dell’autostima} [State or trait? It is an empirical matter, not a theoretical one. The case of self-esteem]. Paper presented at the XVI national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Rome, Italy.
+
+    \item \textbf{Perinelli, E.}, Alessandri, G., Borgogni, L., \& Cinque, L. (2017, September 14-16). \textit{Stabilità emotiva e burnout: Il ruolo di mediazione delle convinzioni di autoefficacia nel gestire le emozioni negative a lavoro} [Emotional stability and burnout: The mediational role of emotional self-efficacy beliefs in managing negative emotions at work]. Paper presented at the XV national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Caserta, Italy.
+
+    \item \textbf{Perinelli, E.}, De Longis, E., Rosa, V., Theodorou, A., \& Alessandri, G. (2016, September 16-17). \textit{Un sé fragile è costoso e stressante. Fragilità dell’autostima, eventi negativi ed esaurimento emotivo in un campione di matricole universitarie} [A fragile self is costly and stressful. Fragile self-esteem, negative events and emotional exhaustion in a sample of university freshers]. Paper presented at the XIV national congress of AIP [Italian Association of Psychology], section of Organizational Psychology, Pavia, Italy.
+\end{etaremune}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Research Experience and Projects}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% problem w/ \ressubheading
+\begin{itemize}
+	\item \textbf{Apr 2020 – Dec 2022}: Project “\textit{Activation and evaluation of initiatives (nudging) to stimulate positive behavior on the labor market}”, funded by Autonomous Province of Trento. Role: Review of literature on Nudging and the labor market, Data analysis. PI: Franco Fraccaroli and Riccardo Salomone (University of Trento).
+
+	\item \textbf{Apr 2021 – Sep 2021}: Project “\textit{Valutazione formativa e per l'apprendimento: l'impatto dell’OM 172 sulle pratiche e la cultura della valutazione in relazione agli apprendimenti cognitivi e non-cognitivi. Un progetto di ricerca-formazione per docenti delle scuole del primo ciclo d'istruzione}”, funded by Ufficio Scolastico Regionale Toscana. Role: Supervision in assessment steps and data analyses. PI: Maurizio Gentile (LUMSA University).
+	
+    \item \textbf{Mar – May 2017}: Visiting scholar at Arizona State University (Tempe, AZ, USA), Department of Psychology. Mentor: Nancy Eisenberg.
+
+    \item \textbf{Mar – Sep 2013}: Internship in Psychometrics at University of Bologna, Department of Psychology. Tutor: Paola Gremigni.
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Grants}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{itemize} 
+%	\setlength{\topsep}{0pt}%
+%	\setlength{\leftmargin}{0.1in}%
+%	\setlength{\listparindent}{-0.1in}%
+%	\setlength{\itemindent}{-0.2in}%
+%	\setlength{\parsep}{\parskip}%
+
+	%\item{\textbf{\large{Completed}}}
+	
+	\begin{center}
+		\parbox{6.5in}{{\textbf{Starting Grant for Young Researchers}}   \hspace{6.5cm} Feb 2022 - May 2023}
+		\parbox{6.5in}{\textit{Role:} PI}
+		\parbox{6.5in}{\textit{Funder:} University of Trento}
+	    \parbox{6.5in}{\textit{Amount:} \texteuro{10,000}} 
+	    \parbox{6.5in}{\textit{Title:} Big data and machine learning approaches in the workplace: Advancing the quality of industrial/organizational research}
+	    \vspace{3mm}
+	\end{center}
+
+	\begin{center}
+		\parbox{6.5in}{{\textbf{Restart Research}}   \hspace{10cm} Aug 2020 - Feb 2022}
+		\parbox{6.5in}{\textit{Role:} Young Researcher (PI: Franco Fraccaroli)}
+		\parbox{6.5in}{\textit{Funder:} Fondazione CARITRO, Trento, Italy}
+	    \parbox{6.5in}{\textit{Amount:} \texteuro{50,000}} 
+	    \parbox{6.5in}{\textit{Title:} Sentirsi “forti” per superare le difficoltà nella ripartenza della scuola: L’importanza del self-concept scolastico negli studenti della scuola secondaria di primo grado dopo l’emergenza da COVID-19 [Feeling “strong” to overcome the difficulties in school restarting: The importance of academic self-concept in junior high school students after the COVID-19 emergency]}
+	    \vspace{3mm}
+	\end{center}
+	
+	\begin{center}
+		\parbox{6.5in}{{\textbf{Mobility Research Grant for PhD Students} (Number: 4389/2016)}   \hspace{2cm} Mar 2017 - May 2017}
+		\parbox{6.5in}{\textit{Role:} PI}
+		\parbox{6.5in}{\textit{Funder:} Sapienza University of Rome}
+		\parbox{6.5in}{\textit{Amount:} \texteuro{3,000}}
+		\parbox{6.5in}{\textit{Title:} A Structural Equation Modeling approach for the evaluation of intervention programs with only two waves of data}
+		\vspace{3mm}
+	\end{center}
+	
+	\begin{center}
+		\parbox{6.5in}{{\textbf{Starting Research Grant} (Number: 1081/2016)}   \hspace{5.5cm} Aug 2016 - Jul 2017}
+		\parbox{6.5in}{\textit{Role:} PI}
+		\parbox{6.5in}{\textit{Funder:} Sapienza University of Rome}
+		\parbox{6.5in}{\textit{Amount:} \texteuro{1,000}}
+		\parbox{6.5in}{\textit{Title:} Explaining stress in University students: A longitudinal study on incongruent self-esteem and perceived negative events as predictors of emotional exhaustion}
+	%	\vspace{3mm}
+	\end{center}
+%\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Awards and Qualifications}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+
+\begin{itemize}
+
+    \item \textbf{2023, February 2 -- Abilitazione Scientifica Nazionale (\textit{National Scientific Qualification})}\\
+    As Associate Professor in the \textit{Settore Concorsuale} 11/E1 (General Psychology, Psychobiology, and Psychometrics). \\
+    Ministero dell'Università e della Ricerca. \\
+    \textit{Validity:} From Feb 2, 2023 to Feb 2, 2033.
+    
+    
+    \item \textbf{2022, September 29 -- Best scientific article published in 2021} \\ For the article \textit{The sociometer theory at work: Exploring the organizational interpersonal roots of self-esteem}.\\
+    Awarded by the Italian Association of Psychology (AIP), section Organizational Psychology.
+    
+    \item \textbf{2022, May 25 -- Abilitazione Scientifica Nazionale (\textit{National Scientific Qualification})}\\
+    As Associate Professor in the \textit{Settore Concorsuale} 11/E3 (Social, Work and Organizational Psychology). \\
+    Ministero dell'Università e della Ricerca. \\
+    \textit{Validity:} From May 25, 2022 to May 25, 2032.
+    
+    \item \textbf{2014, February 28 -- Abilitazione Professionale (\textit{Professional Qualification})} \\
+    Psychologist (Albo degli Psicologi, Sezione A; currently not subscribed). \\
+    University of Bologna, Italy.
+    
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Professional Membership}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% problem w/ \ressubheading
+\begin{itemize}
+     \item{2019 - Current} \hspace{5mm} {European Association of Work and Organizational Psychology (EAWOP)}
+     \item{2017 - Current} \hspace{5mm} {AIP [Italian Association of Psychology], section of Organizational Psychology}
+    \item{2019 - 2020} \hspace{10mm} {Academy of Management (AOM)}
+    \item{2017 - 2019} \hspace{10mm} {Psychometric Society}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Teaching Experience}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize} 
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	
+\item {\textbf{\large{Workshops}}}
+	\begin{center}
+		\parbox{6.5in}{\textit{\textbf{Summer school in Data Science (Psychology Module)}}}
+		\parbox{6.5in}{Department of Mathematics, University of Trento, Italy}
+		\parbox{6.5in} {
+		-- 2022 - July 18, 19, 29, 30 (12h) \\
+		-- 2021 - July 19, 20, 30, 31 (12h) \\
+		-- 2020 - July 20, 21, 31, August 1 (12h) \\
+		-- 2019 - July 20, 26, 27 (9h)} \\
+		\vspace{3mm}
+	\end{center}
+	
+	\begin{center}
+		\parbox{6.5in}{\textit{\textbf{International pre-congress methodological school: Multilevel Modeling with Organizational Psychology focus}} (Alessandri, Zuffianò, Perinelli, \& De Longis)} 
+		\parbox{6.5in}{Caserta, Italy.}
+		\parbox{6.5in}{-- 2017 - September 11-14} \\
+		\vspace{3mm}
+	\end{center}
+	
+		\begin{center}
+		\parbox{6.5in}{\textit{\textbf{Growth modeling: Introduction in Mplus}} (Alessandri \& Perinelli)}
+		\parbox{6.5in}{Department of Human Sciences, University of Verona, Italy}
+		\parbox{6.5in}{-- 2016 - September 14}  \\ 
+		\vspace{3mm}
+	\end{center}
+
+\item {\textbf{\large{Seminars/Courses (Graduate Level)}}}
+	\begin{center}
+		\parbox{6.5in}{\textit{\textbf{Research Synthesis: An Introduction to Reviews, Meta-Analyses, and PRISMA Criteria}}}
+		\parbox{6.5in} {
+		Department of Psychology, Sapienza University of Rome, Italy \\
+		-- 2022 - January 28 (3h) \\
+		-- 2021 - March 19 (3h) \\
+		-- 2020 - July 3 (3h) \\
+		-- 2018 - May 11 (3h) \\
+		-- 2017 - March 2 (3h) \\
+		-- 2016 - March 3 (2h) \\
+		Department of Humanistic Studies, University of Naples Federico II, Italy \\
+		-- 2021 - May 14, 21 (6h) \\ 
+		-- 2018 - June 19 (3h)} \\
+		\vspace{3mm}
+	\end{center}
+
+	\begin{center}
+		\parbox{6.5in}{\textit{\textbf{An Introduction to Latent Variable Models: Factor Analysis and Structural Equation Modeling with Mplus}}}
+		\parbox{6.5in} {Department of Psychology and Cognitive Science, University of Trento, Italy \\
+		-- 2023 - February 2, 3, 9, 10, 24 (15h) \\
+        -- 2022 - February 10, 11, 24, 25 (12h) \\
+		-- 2021 - March 5, 12, 17, 26 (12h) \\ 
+		-- 2020 - June 12, 18, 23, 25 (12h) \\
+		-- 2019 - June 25, July 2 (6h)} \\ 
+		\vspace{3mm}
+	\end{center}
+	
+\item {\textbf{\large{Undergraduate Level}}}
+   \begin{center}
+		\parbox{6.5in}{\textit{\textbf{Foundations of Social and Psychological Science - Data Science and Psychology: Methods and Applications}}}
+		\parbox{6.5in}{M.S. in Data Science, University of Trento, Italy}
+		\parbox{6.5in} {-- 2022-2023 (30h)}
+		\parbox{6.5in} {-- 2021-2022 (30h)}
+		\parbox{6.5in} {-- 2020-2021 (10h)}
+		\parbox{6.5in} {-- 2019-2020 (10h)}\\
+		
+		\vspace{3mm}
+	    
+	    \parbox{6.5in}{\textit{\textbf{Metodi della Ricerca in Psicologia}}}
+		\parbox{6.5in}{B.S. in Scienze e Tecniche di Psicologia Cognitiva, University of Trento, Italy}
+        \parbox{6.5in} {-- 2022-2023 (15h)}
+		\parbox{6.5in} {-- 2021-2022 (15h)}
+	
+	\end{center}
+\end{itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Professional Activities}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize} 
+	\setlength{\topsep}{0pt}%
+	\setlength{\leftmargin}{0.1in}%
+	
+	\item {\textbf{\large{Editorial Boards}}}\\
+	\textit{Frontiers in Psychology: Quantitative Psychology and Measurement} (2019 - present)\\
+	\textit{Identity: An international journal of theory and research} (2021 - 2023)\\
+	\textit{Journal of Business and Psychology} (2021 - present)\\
+	
+	\item {\textbf{\large{Ad hoc Reviewer}}}\\
+	\textit{Frontiers in Psychology: Quantitative Psychology and Measurement} (1 in 2016, 1 in 2017, 4 in 2019, 2 in 2020, 2 in 2021) \\
+    \textit{Asian Journal of Social Psychology} (1 in 2017, 1 in 2018) \\
+    \textit{Psychologica Belgica} (1 in 2018) \\
+	\textit{Open Psychology} (1 in 2019) \\
+	\textit{PLoS ONE} (1 in 2019, 1 in 2020, 1 in 2021) \\
+	\textit{Personality and Social Psychology Bulletin} (1 in 2019, 1 in 2021, 1 in 2023) \\
+	\textit{Frontiers in Psychology: Organizational Psychology} (3 in 2019) \\
+	\textit{Applied Psychology: An International Review} (1 in 2020, 1 in 2022) \\
+	\textit{Identity: An international journal of theory and research} (2 in 2020, 1 in 2021, 3 in 2022) \\
+	\textit{Child Development} (1 in 2020) \\
+	\textit{TPM} (1 in 2021) \\
+	\textit{International Journal of Selection and Assessment} (2 in 2021) \\
+	\textit{Research in Developmental Disabilities} (1 in 2021) \\
+	\textit{International Journal of Psychology} (1 in 2022) \\
+	\textit{Journal of Business and Psychology} (2 in 2022) \\
+    \textit{Quarterly Journal of Experimental Psychology} (1 in 2023)
+
+    \item {\textbf{\large{Ad hoc reviewer for Congresses}}}\\
+    \textit{19th Congress of the European Association of Work and Organizational Psychology} (2019) \\
+\end{itemize}	
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Methodological Education}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item \textbf{University of Bologna (Cesena, Italy)} \\
+    \begin{itemize}
+    \item \textit{Introduction to SPSS} - Paola Gremigni (March-April 2012 - 30 hours)
+    \end{itemize}
+    
+\item \textbf{Sapienza University of Rome (Rome, Italy)} \\
+   \begin{itemize}
+   \item \textit{Regression Analysis} - Laura Di Giunta (April 15/17, 2015 - 8 hours) \\
+   \item \textit{Introduction to multilevel analyses} - Guido Alessandri (April 28 May 5, 2015 - 8 hours) \\
+   \item \textit{Introduction to SEM with Mplus} - Michele Vecchione (May 25-26, 2015 - 8 hours) \\
+   \item \textit{Introduction to mixed models in R} - Jason A. French (June 9-12, 2015 - 16 hours) \\
+   \item \textit{Latent Growth Curve Modeling with Mplus} - Valeria Castellani (June 17-18, 2015 - 8 hours) \\
+   \item \textit{Trajectories (LCGA/GMM) with Mplus} - Paula Luengo Kanacri (September 14-15, 2015 - 8 hours) \\
+   \item \textit{A gentle introduction to resampling techniques} - Fabio Ferlazzo (September 17, 2015 - 4 hours) \\
+   \item \textit{Multilevel analyses with Mplus} - Valerio Ghezzi (May-June 2016 - 10 hours) \\
+   \item \textit{Testing and interpreting interaction effects in multiple linear regression} - Antonio Zuffanò (July 26, 2016 - 3 hours)
+   \end{itemize}
+
+\item \textbf{Utrecht University (Utrecht, The Netherlands)} \\
+    \begin{itemize}
+    \item \textit{Summer school “Advanced course on using Mplus”} - Ellen Hamaker, Peter Lugtig, and Rens van de Schoot (August 24-28, 2015 - 40 hours) \\
+    \end{itemize}
+
+\item \textbf{University of Trento (Rovereto, Italy)} \\
+    \begin{itemize}
+    \item \textit{Introduction to multilevel models in organizational research} - Guido Alessandri and Antonio Zuffianò (January 19-20, 2017 - 10 hours) \\
+    \item \textit{Crash course on power analysis} - Giulio Costantini and Marco Perugini (January 25, 2019 - 5 hours) \\
+    \item \textit{Introduction to R} - Stefano Bussolon (February 5-13-19, March 7-14-21, April 16, 2019 - 21 hours) \\
+    \item \textit{Introduction to \LaTeX} - Marco Giacomelli (August 2-3, 2022 - 6 hours) \\
+    \item \textit{Introduction to Web Scraping with Python} - Riccardo Medana (October 25, 2022 - 7 hours)
+    \end{itemize}
+    
+\item \textbf{Arizona State University (Tempe, AZ, USA)} \\
+    \begin{itemize}
+    \item \textit{Structural Equation Modeling (PSY 533)} - Stephen G. West (Mar-Apr 2017 - 28 hours) \\
+    \item \textit{Longitudinal Growth Modeling (PSY 537)} - Kevin J. Grimm (Mar-Apr 2017 - 28 hours) \\
+    \end{itemize}
+
+\item \textbf{82nd Annual Meeting of the Psychometric Society (Zürich, Switzerland)} \\
+   \begin{itemize}
+    \item \textit{Dynamic Structural Equation Modeling of Intensive Longitudinal Data Using Mplus Version 8} - Bengt Muthén, Tihomir Asparouhov, and Ellen Hamaker (July 17, 2017 - 8 hours) \\
+    \end{itemize}
+
+\item \textbf{19th EAWOP Congress (Turin, Italy)} \\
+   \begin{itemize}
+    \item \textit{Introducing open-source teaching modules on Big Data: Approaches within work and organizational psychology} - Cornelius König and Marise Ph. Born (May 29, 2019 - 3 hours) \\
+    \end{itemize}
+
+\item \textbf{Statistical Horizons (Remote Seminar)} \\
+    \begin{itemize}
+    \item \textit{Machine Learning} - Kevin J. Grimm (January 7-8-9, 2021 - 14 hours) \\
+    \end{itemize}
+
+\item \textbf{37th Annual SIOP Conference (Seattle, WA, USA)} \\
+   \begin{itemize}
+    \item \textit{Practical Applications of Machine Learning in I-O} - Scott Withrow, Rachel T. King, and Isaac Thompson (April 29, 2022 - 3 hours) \\
+    \end{itemize}
+    
+\item \textbf{DataCamp (Remote Seminar)} \\
+    \begin{itemize}
+    \item \textit{Big Data with R} - The DataCamp Team (July 18-August 4, 2022 - 16 hours) \\
+    \item \textit{GitHub Concepts} - The DataCamp Team (October 19, 2022 - 3 hours) \\
+    \end{itemize}
+
+\end{itemize}
+
+%\begin{list}{}{\setlength\itemindent{-\leftmargin}}
+%  \item \lipsum[1]
+%  \item \lipsum[2]
+%\end{list}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\resheading{Skills}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize} 
+\setlength{\topsep}{0pt}%
+\setlength{\leftmargin}{0.1in}%
+
+\item \textbf{Software Skills}\\
+R, M\textit{plus}, SPSS, \LaTeX.
+%Excel, Qualtrics, ESCI (\textit{Exploratory Software for Confidence Intervals}), ProMeta.
+
+\item \textbf{Methodological Skills}\\
+Data Wrangling (e.g., \texttt{tidyverse, RMarkdown, Quarto}), PRISMA Criteria, Meta-analyses (\texttt{metafor}), Multivariate Statistics, Structural Equation Modeling, Longitudinal Structural Equation Modeling, Mediation and Moderation, Mixture Models, Multilevel Modeling, Bayesian Structural Equation Modeling, Monte Carlo simulations, Machine Learning (shallow).
+
+
+\end{itemize}
+
+\end{document}
