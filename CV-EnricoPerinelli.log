@@ -1,59 +1,52 @@
-This is LuaHBTeX, Version 1.15.0 (MiKTeX 22.7.30) (format=lualatex 2023.2.13)  26 JUN 2023 09:26
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.17)  17 JUL 2023 18:37
  restricted system commands enabled.
 **CV-EnricoPerinelli.tex
 (./CV-EnricoPerinelli.tex
-LaTeX2e <2022-06-01> patch level 5
-Lua module: luaotfload 2022-06-15 3.22 Lua based OpenType font support
-Lua module: lualibs 2021-05-20 2.74 ConTeXt Lua standard libraries.
-Lua module: lualibs-extended 2021-05-20 2.74 ConTeXt Lua libraries -- extended c
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+Lua module: luaotfload 2022-10-03 3.23 Lua based OpenType font support
+Lua module: lualibs 2022-10-04 2.75 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2022-10-04 2.75 ConTeXt Lua libraries -- extended c
 ollection.
 luaotfload | conf : Root cache directory is "C:/Users/Enrico Perinelli/AppData/L
 ocal/MiKTeX/luatex-cache/generic/names".
-luaotfload | init : Loading fontloader "fontloader-2022-06-15.lua" from kpse-res
+luaotfload | init : Loading fontloader "fontloader-2022-10-03.lua" from kpse-res
 olved path "C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/luatex/l
-uaotfload/fontloader-2022-06-15.lua".
+uaotfload/fontloader-2022-10-03.lua".
 Lua-only attribute luaotfload@noligature = 1
 luaotfload | init : Context OpenType loader version 3.120
-Inserting `luaotfload.node_processor' at position 1 in `pre_linebreak_filter'.
-Inserting `luaotfload.node_processor' at position 1 in `hpack_filter'.
-Inserting `luaotfload.glyph_stream' at position 1 in `glyph_stream_provider'.
-Inserting `luaotfload.define_font' at position 1 in `define_font'.
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
 Lua-only attribute luaotfload_color_attribute = 2
 luaotfload | conf : Root cache directory is "C:/Users/Enrico Perinelli/AppData/L
 ocal/MiKTeX/luatex-cache/generic/names".
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_opentype_file'.
-Inserting `luaotfload.harf.strip_prefix' at position 1 in `find_truetype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
 Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
-Inserting `luaotfload.harf.glyphstream' at position 1 in `glyph_stream_provider'
-.
-Inserting `luaotfload.harf.finalize_vlist' at position 1 in `post_linebreak_filt
-er'.
-Inserting `luaotfload.harf.finalize_hlist' at position 2 in `hpack_filter'.
-Inserting `luaotfload.cleanup_files' at position 1 in `wrapup_run'.
-Inserting `luaotfload.harf.finalize_unicode' at position 1 in `finish_pdffile'.
-Inserting `luaotfload.glyphinfo' at position 1 in `glyph_info'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
 Lua-only attribute luaotfload.letterspace_done = 3
-Inserting `luaotfload.aux.set_sscale_dimens' at position 1 in `luaotfload.patch_
-font'.
-Inserting `luaotfload.aux.set_font_index' at position 2 in `luaotfload.patch_fon
-t'.
-Inserting `luaotfload.aux.patch_cambria_domh' at position 3 in `luaotfload.patch
-_font'.
-Inserting `luaotfload.aux.fixup_fontdata' at position 1 in `luaotfload.patch_fon
-t_unsafe'.
-Inserting `luaotfload.aux.set_capheight' at position 4 in `luaotfload.patch_font
-'.
-Inserting `luaotfload.aux.set_xheight' at position 5 in `luaotfload.patch_font'.
-Inserting `luaotfload.rewrite_fontname' at position 6 in `luaotfload.patch_font'
-. L3 programming layer <2022-07-15>
-Inserting `tracingstacklevels' at position 1 in `input_level_string'.
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'.
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/base/articl
 e.cls"
-Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/base/size10
 .clo"
-File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from C:/Users/Enrico Perinelli/AppD
 ata/Local/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count183
@@ -64,11 +57,11 @@ ata/Local/MiKTeX/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@subparagraph=\count188
 \c@figure=\count189
 \c@table=\count190
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen137
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen139
 )
-\outerbordwidth=\skip49
+\outerbordwidth=\skip50
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcol
 or.sty"
@@ -82,10 +75,10 @@ Package xcolor Info: Driver file: luatex.def on input line 227.
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/graphics-de
 f/luatex.def"
-File: luatex.def 2021/06/01 v1.2c Graphics/color driver for luatex
+File: luatex.def 2022/09/22 v1.2d Graphics/color driver for luatex
 )
-("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex-dev/graphic
-s/mathcolor.ltx")
+("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/graphics/ma
+thcolor.ltx")
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -103,11 +96,11 @@ File: svgnam.def 2022/06/12 v2.14 Predefined colors according to SVG 1.1 (UK)
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/framed/fram
 ed.sty"
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
-\OuterFrameSep=\skip50
-\fb@frw=\dimen138
-\fb@frh=\dimen139
-\FrameRule=\dimen140
-\FrameSep=\dimen141
+\OuterFrameSep=\skip51
+\fb@frw=\dimen140
+\fb@frh=\dimen141
+\FrameRule=\dimen142
+\FrameSep=\dimen143
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/comment/com
 ment.sty"
@@ -117,39 +110,39 @@ ment.sty"
 loft.sty"
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has section divisions on input line 51.
-\cftparskip=\skip51
-\cftbeforetoctitleskip=\skip52
-\cftaftertoctitleskip=\skip53
-\cftbeforepartskip=\skip54
-\cftpartnumwidth=\skip55
-\cftpartindent=\skip56
-\cftbeforesecskip=\skip57
-\cftsecindent=\skip58
-\cftsecnumwidth=\skip59
-\cftbeforesubsecskip=\skip60
-\cftsubsecindent=\skip61
-\cftsubsecnumwidth=\skip62
-\cftbeforesubsubsecskip=\skip63
-\cftsubsubsecindent=\skip64
-\cftsubsubsecnumwidth=\skip65
-\cftbeforeparaskip=\skip66
-\cftparaindent=\skip67
-\cftparanumwidth=\skip68
-\cftbeforesubparaskip=\skip69
-\cftsubparaindent=\skip70
-\cftsubparanumwidth=\skip71
-\cftbeforeloftitleskip=\skip72
-\cftafterloftitleskip=\skip73
-\cftbeforefigskip=\skip74
-\cftfigindent=\skip75
-\cftfignumwidth=\skip76
+\cftparskip=\skip52
+\cftbeforetoctitleskip=\skip53
+\cftaftertoctitleskip=\skip54
+\cftbeforepartskip=\skip55
+\cftpartnumwidth=\skip56
+\cftpartindent=\skip57
+\cftbeforesecskip=\skip58
+\cftsecindent=\skip59
+\cftsecnumwidth=\skip60
+\cftbeforesubsecskip=\skip61
+\cftsubsecindent=\skip62
+\cftsubsecnumwidth=\skip63
+\cftbeforesubsubsecskip=\skip64
+\cftsubsubsecindent=\skip65
+\cftsubsubsecnumwidth=\skip66
+\cftbeforeparaskip=\skip67
+\cftparaindent=\skip68
+\cftparanumwidth=\skip69
+\cftbeforesubparaskip=\skip70
+\cftsubparaindent=\skip71
+\cftsubparanumwidth=\skip72
+\cftbeforeloftitleskip=\skip73
+\cftafterloftitleskip=\skip74
+\cftbeforefigskip=\skip75
+\cftfigindent=\skip76
+\cftfignumwidth=\skip77
 \c@lofdepth=\count191
 \c@lotdepth=\count192
-\cftbeforelottitleskip=\skip77
-\cftafterlottitleskip=\skip78
-\cftbeforetabskip=\skip79
-\cfttabindent=\skip80
-\cfttabnumwidth=\skip81
+\cftbeforelottitleskip=\skip78
+\cftafterlottitleskip=\skip79
+\cftbeforetabskip=\skip80
+\cfttabindent=\skip81
+\cfttabnumwidth=\skip82
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/lipsum/lips
 um.sty"
@@ -157,15 +150,16 @@ um.sty"
 l3keys2e/l3keys2e.sty"
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/l3kernel/ex
 pl3.sty"
-Package: expl3 2022-07-15 L3 programming layer (loader) 
+Package: expl3 2023-06-16 L3 programming layer (loader) 
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l
 3backend-luatex.def"
-File: l3backend-luatex.def 2022-07-01 L3 backend support: PDF output (LuaTeX)
+File: l3backend-luatex.def 2023-04-19 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count193
+Inserting `l3color' in `luaotfload.parse_color'.
 \l__pdf_internal_box=\box51
 ))
-Package: l3keys2e 2022-06-22 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2023-02-02 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 \g__lipsum_par_int=\count194
@@ -176,13 +170,13 @@ Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
 um.ltd.tex"))
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/tools/array
 .sty"
-Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
-\col@sep=\dimen142
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen144
 \ar@mcellbox=\box52
-\extrarowheight=\dimen143
-\NC@list=\toks16
-\extratabsurround=\skip82
-\backup@length=\skip83
+\extrarowheight=\dimen145
+\NC@list=\toks17
+\extratabsurround=\skip83
+\backup@length=\skip84
 \ar@cellbox=\box53
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/etaremune/e
@@ -197,8 +191,8 @@ Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 keyval.tex"
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/x
 kvutils.tex"
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/xkeyval/k
 eyval.tex"))
@@ -210,7 +204,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hy
 perref.sty"
-Package: hyperref 2022-06-20 v7.00s Hypertext links for LaTeX
+Package: hyperref 2023-05-16 v7.00y Hypertext links for LaTeX
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/l
 txcmds.sty"
@@ -232,11 +226,11 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-\pdftexcmds@toks=\toks19
+\pdftexcmds@toks=\toks20
 )
-("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/kvsetkeys
-/kvsetkeys.sty"
-Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/kvsetkeys/k
+vsetkeys.sty"
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/kvdefinek
 eys/kvdefinekeys.sty"
@@ -260,7 +254,7 @@ Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/na
 meref.sty"
-Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+Package: nameref 2023-05-16 v2.51 Cross-referencing by name of section
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/refcount/re
 fcount.sty"
@@ -276,44 +270,45 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count266
 )
-\@linkdim=\dimen144
-\Hy@linkcounter=\count267
-\Hy@pagecounter=\count268
+("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/etoolbox/et
+oolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count267
+)
+\@linkdim=\dimen146
+\Hy@linkcounter=\count268
+\Hy@pagecounter=\count269
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pd
 1enc.def"
-File: pd1enc.def 2022-06-20 v7.00s Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2023-05-16 v7.00y Hyperref: PDFDocEncoding definition (HO)
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/intcalc/i
 ntcalc.sty"
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/etexcmds/
-etexcmds.sty"
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
-)
-\Hy@SavedSpaceFactor=\count269
+\Hy@SavedSpaceFactor=\count270
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/pu
 enc.def"
-File: puenc.def 2022-06-20 v7.00s Hyperref: PDF Unicode definition (HO)
+File: puenc.def 2023-05-16 v7.00y Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4408.
-\c@Hy@tempcnt=\count270
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count271
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty
 "
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4746.
-\XeTeXLinkMargin=\dimen145
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen147
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/bitset/bi
 tset.sty"
@@ -324,31 +319,31 @@ c/bigintcalc.sty"
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count271
-\Field@Width=\dimen146
-\Fld@charsize=\dimen147
-Package hyperref Info: Hyper figures OFF on input line 6024.
-Package hyperref Info: Link nesting OFF on input line 6029.
-Package hyperref Info: Hyper index ON on input line 6032.
-Package hyperref Info: backreferencing OFF on input line 6039.
-Package hyperref Info: Link coloring OFF on input line 6044.
-Package hyperref Info: Link coloring with OCG OFF on input line 6049.
-Package hyperref Info: PDF/A mode OFF on input line 6054.
+\Fld@menulength=\count272
+\Field@Width=\dimen148
+\Fld@charsize=\dimen149
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/base/atbegs
 hi-ltx.sty"
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count272
-\c@Item=\count273
-\c@Hfootnote=\count274
+\Hy@abspage=\count273
+\c@Item=\count274
+\c@Hfootnote=\count275
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/hyperref/hl
 uatex.def"
-File: hluatex.def 2022-06-20 v7.00s Hyperref driver for luaTeX
+File: hluatex.def 2023-05-16 v7.00y Hyperref driver for luaTeX
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/generic/stringenc
 /stringenc.sty"
@@ -361,8 +356,8 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count275
-\c@bookmark@seq@number=\count276
+\Fld@listcount=\count276
+\c@bookmark@seq@number=\count277
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilech
 eck/rerunfilecheck.sty"
@@ -375,7 +370,7 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
-\Hy@SectionHShift=\skip84
+\Hy@SectionHShift=\skip85
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/academicons
 /academicons.sty"
@@ -387,7 +382,7 @@ Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/l3packages/
 xparse/xparse.sty"
-Package: xparse 2022-06-22 L3 Experimental document command parser
+Package: xparse 2023-02-02 L3 Experimental document command parser
 )
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/fontawesome
 5/fontawesome5-utex-helper.sty"
@@ -401,10 +396,10 @@ Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/luatex/ctablestac
 k/ctablestack.sty"
 Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
-\@catcodetablestackcnt=\count277
+\@catcodetablestackcnt=\count278
 )
-\CatcodeTableOther=\catcodetable12
-\CatcodeTableExpl=\catcodetable13
+\CatcodeTableOther=\catcodetable14
+\CatcodeTableExpl=\catcodetable15
 )
 LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
 nput line 69.
@@ -432,7 +427,7 @@ LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 7
 
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr
 .fd"
-File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 71.
 LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 71.
@@ -449,17 +444,17 @@ LaTeX Font Info:    ... okay on input line 71.
 ("C:/Users/Enrico Perinelli/AppData/Local/Programs/MiKTeX/tex/context/base/mkii
 /supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count278
-\scratchdimen=\dimen148
+\scratchcounter=\count279
+\scratchdimen=\dimen150
 \scratchbox=\box54
-\nofMPsegments=\count279
-\nofMParguments=\count280
-\everyMPshowfont=\toks20
-\MPscratchCnt=\count281
-\MPscratchDim=\dimen149
-\MPnumerator=\count282
-\makeMPintoPDFobject=\count283
-\everyMPtoPDFconversion=\toks21
+\nofMPsegments=\count280
+\nofMParguments=\count281
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count282
+\MPscratchDim=\dimen151
+\MPnumerator=\count283
+\makeMPintoPDFobject=\count284
+\everyMPtoPDFconversion=\toks22
 )
 Package hyperref Info: Link coloring OFF on input line 71.
  (./CV-EnricoPerinelli.out) (./CV-EnricoPerinelli.out)
@@ -479,20 +474,24 @@ LaTeX Font Info:    Trying to load font information for TU+academicons on input
 {C:/Users/Enrico Perinelli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [
 2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
 (./CV-EnricoPerinelli.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-06-16>
+ ***********
 Package rerunfilecheck Info: File `CV-EnricoPerinelli.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13776 strings out of 477474
- 125007,662416 words of node,token memory allocated
- 591 words of node memory still in use:
-   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 85 glue_spec,
+ 13760 strings out of 478031
+ 125027,1977958 words of node,token memory allocated
+ 596 words of node memory still in use:
+   3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 86 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:1169,3:486,4:229,5:854,6:95,7:11074,8:60,9:921,10:22,11:936
- 34368 multiletter control sequences out of 65536+600000
+   avail lists: 2:1077,3:486,4:229,5:855,6:95,7:11074,8:49,9:962,10:22,11:936
+ 34052 multiletter control sequences out of 65536+600000
  38 fonts using 2934343 bytes
- 72i,10n,74p,664b,1120s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 79i,10n,89p,664b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/enrico perinelli/appdata/local/programs/miktex/fonts/opentype/publ
 ic/lm/lmroman7-regular.otf><//?/c:/users/enrico perinelli/appdata/local/programs
 /miktex/fonts/opentype/public/lm/lmroman7-italic.otf><//?/c:/users/enrico perine
@@ -510,7 +509,7 @@ i/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><
 //?/c:/users/enrico perinelli/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman10-bold.otf><//?/c:/users/enrico perinelli/appdata/local/programs/mi
 ktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on CV-EnricoPerinelli.pdf (11 pages, 121764 bytes).
+Output written on CV-EnricoPerinelli.pdf (11 pages, 121799 bytes).
 
 PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 131072)
