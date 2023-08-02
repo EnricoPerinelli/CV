@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.17)  17 JUL 2023 18:37
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.5) (format=lualatex 2023.7.17)  2 AUG 2023 13:50
  restricted system commands enabled.
 **CV-EnricoPerinelli.tex
 (./CV-EnricoPerinelli.tex
@@ -488,7 +488,7 @@ Here is how much of LuaTeX's memory you used:
  596 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 86 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:1077,3:486,4:229,5:855,6:95,7:11074,8:49,9:962,10:22,11:936
+   avail lists: 2:1077,3:486,4:229,5:858,6:92,7:11074,8:49,9:962,10:22,11:936
  34052 multiletter control sequences out of 65536+600000
  38 fonts using 2934343 bytes
  79i,10n,89p,664b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -509,7 +509,7 @@ i/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><
 //?/c:/users/enrico perinelli/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman10-bold.otf><//?/c:/users/enrico perinelli/appdata/local/programs/mi
 ktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on CV-EnricoPerinelli.pdf (11 pages, 121799 bytes).
+Output written on CV-EnricoPerinelli.pdf (11 pages, 122348 bytes).
 
 PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 131072)
