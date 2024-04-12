@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.2.21)  5 MAR 2024 10:39
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.2.21)  26 MAR 2024 15:40
  restricted system commands enabled.
 **CV-EnricoPerinelli.tex
 (./CV-EnricoPerinelli.tex
@@ -484,8 +484,7 @@ Here is how much of LuaTeX's memory you used:
  596 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 86 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:1,2:1097,3:469,4:229,5:876,6:93,7:11234,8:49,9:961,10:25,11:10
-32
+   avail lists: 2:1091,3:490,4:229,5:871,6:93,7:11296,8:49,9:952,10:25,11:1054
  35519 multiletter control sequences out of 65536+600000
  38 fonts using 2934343 bytes
  79i,10n,89p,660b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -506,9 +505,9 @@ i/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><
 //?/c:/users/enrico perinelli/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman10-bold.otf><//?/c:/users/enrico perinelli/appdata/local/programs/mi
 ktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on CV-EnricoPerinelli.pdf (11 pages, 126517 bytes).
+Output written on CV-EnricoPerinelli.pdf (11 pages, 126911 bytes).
 
-PDF statistics: 181 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 183 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
