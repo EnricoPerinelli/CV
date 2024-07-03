@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.2.21)  18 JUN 2024 10:03
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2024.2.21)  3 JUL 2024 13:36
  restricted system commands enabled.
 **CV-EnricoPerinelli.tex
 (./CV-EnricoPerinelli.tex
@@ -468,8 +468,12 @@ LaTeX Font Info:    Trying to load font information for TU+academicons on input
 /tuacademicons.fd") [1
 
 {C:/Users/Enrico Perinelli/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [
-2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
-(./CV-EnricoPerinelli.aux)
+2] [3] [4] [5] [6] [7] [8] [9] [10] [11]
+
+LaTeX Warning: Etaremune labels have changed.
+               Rerun to get them right.
+
+[12] (./CV-EnricoPerinelli.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -484,7 +488,7 @@ Here is how much of LuaTeX's memory you used:
  596 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 86 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:1122,3:489,4:233,5:909,6:94,7:11078,8:49,9:998,10:25,11:1045
+   avail lists: 2:1155,3:471,4:265,5:925,6:98,7:11126,8:49,9:1104,10:25,11:1003
  35519 multiletter control sequences out of 65536+600000
  38 fonts using 2934343 bytes
  79i,10n,89p,660b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -505,9 +509,9 @@ i/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><
 //?/c:/users/enrico perinelli/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman10-bold.otf><//?/c:/users/enrico perinelli/appdata/local/programs/mi
 ktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on CV-EnricoPerinelli.pdf (12 pages, 128695 bytes).
+Output written on CV-EnricoPerinelli.pdf (12 pages, 128917 bytes).
 
-PDF statistics: 187 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 188 PDF objects out of 1000 (max. 8388607)
  13 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
