@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (MiKTeX 25.3) (format=lualatex 2025.5.1)  1 MAY 2025 16:48
+This is LuaHBTeX, Version 1.21.0 (MiKTeX 25.3) (format=lualatex 2025.5.1)  11 SEP 2025 15:23
  restricted system commands enabled.
 **CV-EnricoPerinelli.tex
 (./CV-EnricoPerinelli.tex
@@ -480,7 +480,9 @@ LaTeX Font Info:    Trying to load font information for TU+academicons on input
 
 [12]
 
-[13] (./CV-EnricoPerinelli.aux)
+[13]
+
+[14] (./CV-EnricoPerinelli.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-03-26>
@@ -490,12 +492,12 @@ Package rerunfilecheck Info: File `CV-EnricoPerinelli.out' has not changed.
 )
 
 Here is how much of LuaTeX's memory you used:
- 13662 strings out of 471941
+ 13663 strings out of 471941
  125007,794899 words of node,token memory allocated
  596 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 4 attribute, 86 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 2:1183,3:480,4:266,5:933,6:94,7:11316,8:49,9:1104,10:25,11:1042
+   avail lists: 2:1175,3:468,4:265,5:921,6:95,7:11179,8:49,9:1105,10:25,11:1034
  40026 multiletter control sequences out of 65536+600000
  38 fonts using 2934343 bytes
  74i,10n,77p,660b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -516,9 +518,9 @@ i/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><
 //?/c:/users/enrico perinelli/appdata/local/programs/miktex/fonts/opentype/publi
 c/lm/lmroman10-bold.otf><//?/c:/users/enrico perinelli/appdata/local/programs/mi
 ktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on CV-EnricoPerinelli.pdf (13 pages, 132525 bytes).
+Output written on CV-EnricoPerinelli.pdf (14 pages, 138622 bytes).
 
-PDF statistics: 193 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 131072)
+PDF statistics: 203 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 131072)
  1 words of extra memory for PDF output out of 10000 (max. 100000000)
 
